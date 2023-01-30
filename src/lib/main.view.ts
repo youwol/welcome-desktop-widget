@@ -106,6 +106,11 @@ export class MainView implements VirtualDOM {
                         id: 'showroom',
                     }),
                     new ShowRoomView({ platformState }),
+                    new SectionTitleView({
+                        title: 'Acknowledgments',
+                        id: 'acknowledgments',
+                    }),
+                    new AcknowledgementsView(),
                 ],
             },
         ]
