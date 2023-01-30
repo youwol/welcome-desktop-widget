@@ -3,7 +3,7 @@ import { PlatformState } from '@youwol/os-core'
 import { Observable } from 'rxjs'
 
 const paragraphs = [
-    `In terms of user experience, YouWol is similar to traditional operating systems (OS) offering features such as a
+    `In terms of user experience, YouWol is similar to traditional operating systems, offering features such as a
      launch-pad, management of applications, and notifications.`,
     `It comes with a few predefined applications, including a files explorer exposed on the left. 
     The items listed in the explorer are referred to as 'assets' which can range from simple files to more complex 

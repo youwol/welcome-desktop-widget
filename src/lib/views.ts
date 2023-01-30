@@ -31,13 +31,13 @@ export class TitleView implements VirtualDOM {
             {
                 tag: 'h1',
                 class: 'text-center',
-                innerText:
-                    'Upgrade your computational science experience with YouWol',
+                innerText: 'YouWol',
             },
             {
                 tag: 'h2',
                 class: 'text-center py-2',
-                innerText: 'Flexible, collaborative and powerful',
+                innerText:
+                    'A new level of flexibility & collaboration in computational science',
             },
         ]
     }

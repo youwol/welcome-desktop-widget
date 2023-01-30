@@ -3,8 +3,7 @@ import { PlatformState } from '@youwol/os-core'
 import { Observable } from 'rxjs'
 
 const paragraphs = [
-    `Py-YouWol is the local equivalent of the online YouWol platform, designed to run on a personal computer. 
-     This ability to be installed as a standalone program regardless of the operating system (Windows, Mac, or Unix) is a disruptive characteristic that sets it apart from traditional cloud-based solutions.`,
+    `Py-YouWol is the local equivalent of the online YouWol platform, designed to run on a personal computer. `,
     `While the online ecosystem of YouWol is the go-to place for sharing resources, the local installation is preferred for the development of those resources.
     In fact, even for daily use of YouWol, the local application provides multiple benefits.`,
     `For a more detailed description of Py-YouWol, please refer to the embedded document on the left.`,

@@ -172,7 +172,7 @@ const paragraphsLargeScale3D = [
     This application allows to visualize large cloud-points datasets (e.g. <a href="https://en.wikipedia.org/wiki/LAS_file_format">lidar</a>). 
     
     Full credit should be given to the <a href='https://github.com/potree/potree'>Potree project</a> for this contribution. 
-    This example once again demonstrates that backend-free solutions can be highly performant.
+    This example shows that backend-free solutions can also perform well in the context of large 3D visualization.
     `,
     `References:
 <ul>

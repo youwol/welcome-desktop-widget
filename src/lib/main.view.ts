@@ -7,6 +7,7 @@ import { ShowRoomView } from './show-room.view'
 import { PyYouwolView } from './py-youwol.view'
 import { BehaviorSubject } from 'rxjs'
 import { PlatformState } from '@youwol/os-core'
+import { AcknowledgementsView } from './acknowledgements.view'
 
 /**
  * @category View
