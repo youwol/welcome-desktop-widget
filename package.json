@@ -1,7 +1,7 @@
 {
     "name": "@youwol/welcome-desktop-widget",
     "description": "",
-    "version": "0.1.0-wip",
+    "version": "0.1.0",
     "author": "greinisch@youwol.com",
     "homepage": "https://github.com/youwol/welcome-desktop-widget#README.md",
     "main": "dist/@youwol/welcome-desktop-widget.js",

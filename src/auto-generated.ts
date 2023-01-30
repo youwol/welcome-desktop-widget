@@ -76,7 +76,7 @@ const entries = {
 export const setup = {
     name:'@youwol/welcome-desktop-widget',
         assetId:'QHlvdXdvbC93ZWxjb21lLWRlc2t0b3Atd2lkZ2V0',
-    version:'0.1.0-wip',
+    version:'0.1.0',
     shortDescription:"",
     developerDocumentation:'https://platform.youwol.com/applications/@youwol/cdn-explorer/latest?package=@youwol/welcome-desktop-widget',
     npmPackage:'https://www.npmjs.com/package/@youwol/welcome-desktop-widget',
@@ -122,7 +122,7 @@ export const setup = {
         const parameters = installParameters || {}
         const scripts = [
             ...(parameters.scripts || []),
-            `@youwol/welcome-desktop-widget#0.1.0-wip~dist/@youwol/welcome-desktop-widget/${entry.name}.js`
+            `@youwol/welcome-desktop-widget#0.1.0~dist/@youwol/welcome-desktop-widget/${entry.name}.js`
         ]
         const modules = [
             ...(parameters.modules || []),
