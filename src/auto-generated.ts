@@ -78,7 +78,7 @@ export const setup = {
         assetId:'QHlvdXdvbC93ZWxjb21lLWRlc2t0b3Atd2lkZ2V0',
     version:'0.1.0',
     shortDescription:"",
-    developerDocumentation:'https://platform.youwol.com/applications/@youwol/cdn-explorer/latest?package=@youwol/welcome-desktop-widget',
+    developerDocumentation:'https://platform.youwol.com/applications/@youwol/cdn-explorer/latest?package=@youwol/welcome-desktop-widget&tab=doc',
     npmPackage:'https://www.npmjs.com/package/@youwol/welcome-desktop-widget',
     sourceGithub:'https://github.com/youwol/welcome-desktop-widget',
     userGuide:'https://l.youwol.com/doc/@youwol/welcome-desktop-widget',
@@ -93,7 +93,7 @@ export const setup = {
     },
 
     installMainModule: ({cdnClient, installParameters}:{
-        cdnClient:{install:(unknown) => Promise<Window>},
+        cdnClient:{install:(unknown) => Promise<WindowOrWorkerGlobalScope>},
         installParameters?
     }) => {
         const parameters = installParameters || {}
@@ -112,7 +112,7 @@ export const setup = {
     },
     installAuxiliaryModule: ({name, cdnClient, installParameters}:{
         name: string,
-        cdnClient:{install:(unknown) => Promise<Window>},
+        cdnClient:{install:(unknown) => Promise<WindowOrWorkerGlobalScope>},
         installParameters?
     }) => {
         const entry = secondaryEntries[name]
