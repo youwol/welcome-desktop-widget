@@ -3,8 +3,8 @@ const runTimeDependencies = {
     "externals": {
         "@youwol/cdn-client": "^1.0.2",
         "@youwol/flux-view": "^1.0.3",
-        "rxjs": "^6.5.5",
-        "@youwol/os-core": "^0.1.5"
+        "@youwol/os-core": "^0.1.5",
+        "rxjs": "^6.5.5"
     },
     "includedInBundle": {}
 }
@@ -19,15 +19,15 @@ const externals = {
         "commonjs2": "@youwol/flux-view",
         "root": "@youwol/flux-view_APIv1"
     },
-    "rxjs": {
-        "commonjs": "rxjs",
-        "commonjs2": "rxjs",
-        "root": "rxjs_APIv6"
-    },
     "@youwol/os-core": {
         "commonjs": "@youwol/os-core",
         "commonjs2": "@youwol/os-core",
         "root": "@youwol/os-core_APIv01"
+    },
+    "rxjs": {
+        "commonjs": "rxjs",
+        "commonjs2": "rxjs",
+        "root": "rxjs_APIv6"
     },
     "rxjs/operators": {
         "commonjs": "rxjs/operators",
@@ -47,13 +47,13 @@ const exportedSymbols = {
         "apiKey": "1",
         "exportedSymbol": "@youwol/flux-view"
     },
-    "rxjs": {
-        "apiKey": "6",
-        "exportedSymbol": "rxjs"
-    },
     "@youwol/os-core": {
         "apiKey": "01",
         "exportedSymbol": "@youwol/os-core"
+    },
+    "rxjs": {
+        "apiKey": "6",
+        "exportedSymbol": "rxjs"
     }
 }
 
